@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30367" started-at="2017-03-25T22:37:20Z" finished-at="2017-03-25T22:37:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30367" started-at="2017-03-25T22:37:20Z" finished-at="2017-03-25T22:37:50Z">
+      <class name="tests.sanityPack.TC_SP_001_3">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:tests.sanityPack.TC_SP_001_3@6ed3f258]" name="BeforeSuite" is-config="true" duration-ms="106" started-at="2017-03-26T04:07:20Z" finished-at="2017-03-26T04:07:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.sanityPack.TC_SP_001_3@6ed3f258]" name="beforeMethod" is-config="true" duration-ms="9667" started-at="2017-03-26T04:07:20Z" finished-at="2017-03-26T04:07:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.sanityPack.TC_SP_001_3.Add_Product_To_Cart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Add_Product_To_Cart()[pri:0, instance:tests.sanityPack.TC_SP_001_3@6ed3f258]" name="Add_Product_To_Cart" duration-ms="19540" started-at="2017-03-26T04:07:30Z" finished-at="2017-03-26T04:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Product_To_Cart -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:tests.sanityPack.TC_SP_001_3@6ed3f258]" name="afterMethod" is-config="true" duration-ms="1072" started-at="2017-03-26T04:07:49Z" finished-at="2017-03-26T04:07:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.sanityPack.TC_SP_001_3.Add_Product_To_Cart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.sanityPack.TC_SP_001_3@6ed3f258]" name="afterSuite" is-config="true" duration-ms="235" started-at="2017-03-26T04:07:50Z" finished-at="2017-03-26T04:07:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.sanityPack.TC_SP_001_3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

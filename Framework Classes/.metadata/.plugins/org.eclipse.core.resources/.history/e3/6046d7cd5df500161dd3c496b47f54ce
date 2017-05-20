@@ -1,0 +1,57 @@
+package testCases;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class TestScenario_3 {
+		private static WebDriver driver;
+	public static void main(String[] args) {
+		driver = new FirefoxDriver();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.get("http://shop.demoqa.com");
+		
+		WebElement myAccount = driver.findElement(By.linkText("MY ACCOUNT"));
+		myAccount.click();
+		
+		WebElement userName = driver.findElement(By.cssSelector("#username"));
+		userName.sendKeys("Test@Gmail.com");
+		
+		WebElement password = driver.findElement(By.cssSelector("#password"));
+		password.sendKeys("Test@@123");
+
+		WebElement login = driver.findElement(By.cssSelector("[name='login']"));
+		login.submit();
+		
+		driver.get("http://shop.demoqa.com/product-category/dresses/");
+		
+		List<WebElement> items = driver.findElements(By.cssSelector(".noo-thumbnail-product.hover-device"));
+		Actions action = new Actions(driver);
+	    action.moveToElement(items.get(0)).build().perform();
+	    WebElement addToCart = driver.findElement(By.cssSelector(".add_to_cart_button"));
+	    addToCart.click();
+	    
+	    WebElement continueShopping = driver.findElement(By.cssSelector(".close-popup"));
+	    continueShopping.click();
+	    
+	    WebElement cart = driver.findElement(By.cssSelector(".cart-button"));
+	    action.moveToElement(cart).build().perform();
+	    WebElement checkout = driver.findElement(By.cssSelector(".checkout-button"));
+	    checkout.click();
+	    
+	    
+		
+		
+		
+		
+	
+		
+		
+
+	}
+
+}

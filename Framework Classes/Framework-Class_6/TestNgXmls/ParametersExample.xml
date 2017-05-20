@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+	<test name="ToolsQA">
+		<classes>
+			<class name="tests.sanityPack.TC_SP_001" />
+			<class name="tests.sanityPack.TC_SP_002" />
+		</classes>
+	</test>
+</suite>

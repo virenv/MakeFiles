@@ -1,0 +1,27 @@
+
+Why to use POM 
+1) Same element again and again in every test.
+2) Hard to distinguish between different elements with same name for ex : Continue or Next Button
+3) Reduce maintenance in case of change in any element property or Page function
+
+
+e) TC_SN_005 Cart Item : Technique to create Page Object for List of Items in Table or Container 
+f) TC_SN_006 Delete Cart Item : Technique to pass above created item to methods
+
+Test NG before/after method usage ToDo list
+a) Teach a session on how we can remove the burden of asking for a driver in tests to some before and after test.
+b) Show how it can help us close the driver automatically with out explicitly calling the driver.close()/quit() in tests.
+
+
+Practice  : Convert all the test in to POM pattern
+
+
+Once they have completed the exercise we will show them how we can return one POM method in another POM
+
+https://subversion.assembla.com/svn/toolsqa^toolsqa-first-space/
+
+
+
+
+  
+  

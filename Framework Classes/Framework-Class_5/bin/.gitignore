@@ -1,0 +1,12 @@
+/factories/
+/dataProvider/
+/testBase/
+/tests/
+/pageObjects/
+/listners/
+/listeners/
+/reporters/
+/enums/
+/constants/
+/abstractClasses/
+/utilities/

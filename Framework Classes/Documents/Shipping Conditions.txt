@@ -1,0 +1,29 @@
+UK 
+	Flat Rate : 2.99
+	Free Shipping
+		Min Order : 40
+		Coupon
+	Local Pick Up
+		Free
+		
+India
+	Free Shipping
+		Min Order : 100
+		Coupon
+	Flat Rate : 8
+	
+US & AUS
+	Free Shipping
+		Min Order : 100
+		Coupon
+	Flat Rate : 8
+	
+Europe
+	Flat Rate : 5
+	Free Shipping
+		Min Order : 75
+		Coupon
+		
+ROW
+	Flat Rate : 12
+	Free Shipping : Not Applicable

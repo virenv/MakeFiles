@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="ToolsQA(failed)">
+    <classes>
+      <class name="tests.sanityPack.TC_SP_001">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="BeforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="Add_Product_To_Cart"/>
+        </methods>
+      </class> <!-- tests.sanityPack.TC_SP_001 -->
+      <class name="tests.sanityPack.TC_SP_002">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="Add_Product_To_WishList"/>
+        </methods>
+      </class> <!-- tests.sanityPack.TC_SP_002 -->
+    </classes>
+  </test> <!-- ToolsQA(failed) -->
+</suite> <!-- Failed suite [Suite] -->

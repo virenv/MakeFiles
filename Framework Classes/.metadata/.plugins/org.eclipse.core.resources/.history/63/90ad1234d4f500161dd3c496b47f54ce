@@ -1,0 +1,34 @@
+package sanityPack;
+
+import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.junit.Assert;
+
+public class TC_SP_011 {
+	private static WebDriver driver;
+	public static void main(String[] args) {
+		driver = new FirefoxDriver();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.get("http://www.shop.demoqa.com");
+		
+		WebElement myAccount = driver.findElement(By.linkText("MY ACCOUNT"));
+		myAccount.click();
+		
+		WebElement userName = driver.findElement(By.cssSelector("#username"));
+		userName.sendKeys("testuser_1");
+		
+		WebElement password = driver.findElement(By.cssSelector("#password"));
+		password.sendKeys("Toolsqa@@00");
+
+		WebElement login = driver.findElement(By.cssSelector("[name='login']"));
+		login.submit();
+		
+		WebElement accountNavigation = driver.findElement(By.cssSelector(".woocommerce-MyAccount-navigation"));
+		Assert.assertTrue(accountNavigation.isDisplayed());
+			
+	}
+	
+}

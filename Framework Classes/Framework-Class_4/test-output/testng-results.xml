@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="97037" started-at="2017-03-12T17:10:19Z" finished-at="2017-03-12T17:11:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="97037" started-at="2017-03-12T17:10:19Z" finished-at="2017-03-12T17:11:56Z">
+      <class name="tests.sanityPack.TC_SP_011_3">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.sanityPack.TC_SP_011_3@5d58c727]" name="beforeMethod" is-config="true" duration-ms="40119" started-at="2017-03-12T22:40:19Z" finished-at="2017-03-12T22:40:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.sanityPack.TC_SP_011_3.SignIn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="SignIn()[pri:0, instance:tests.sanityPack.TC_SP_011_3@5d58c727]" name="SignIn" duration-ms="46631" started-at="2017-03-12T22:41:03Z" finished-at="2017-03-12T22:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:tests.sanityPack.TC_SP_011_3@5d58c727]" name="afterMethod" is-config="true" duration-ms="6521" started-at="2017-03-12T22:41:50Z" finished-at="2017-03-12T22:41:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.sanityPack.TC_SP_011_3.SignIn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.sanityPack.TC_SP_011_3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,18 @@
+
+cash_discount_10
+	Min Spend : 15
+
+percentage_discount_10
+	Min Spend : 15
+	
+free_shipping
+	Min Spend : 15
+	
+restricted_item
+	Cash Discount : 10
+	Min Spend : 15
+	Not applicable to Purse, Bag & BagPack category
+
+	
+Men Shirts have the You May Like category on the Product Detail Page  
+Women Maxi Dresses have the Up Sell functionality on the Cart Page
